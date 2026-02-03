@@ -23,6 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         # Step 4: Run the test suite (The "Test" phase)
-        - name: Run Tests with Pytest
-        run: |
+    - name: Run Tests with Pytest
+      run: |
         pytest -s # Added '-s' to show print statements
